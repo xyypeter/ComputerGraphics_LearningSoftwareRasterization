@@ -14,4 +14,5 @@ project ("SoftwareRasterizationProjects")
 # 包含子项目。
 #add_subdirectory ("SoftwareRasterizationProjects")
 #add_subdirectory ("01_lectureCodes01-Windows")
-add_subdirectory ("02_lectureCodes02-GDI")
+#add_subdirectory ("02_lectureCodes02-GDI")
+add_subdirectory ("03_lectureCodes03-Lines")
