@@ -12,4 +12,5 @@ endif()
 project ("SoftwareRasterizationProjects")
 
 # 包含子项目。
-add_subdirectory ("SoftwareRasterizationProjects")
+#add_subdirectory ("SoftwareRasterizationProjects")
+add_subdirectory ("01_lectureCodes01-Windows")
