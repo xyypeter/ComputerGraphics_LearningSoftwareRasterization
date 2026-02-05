@@ -1,7 +1,7 @@
 ﻿# CMakeList.txt: 顶层 CMake 项目文件，在此处执行全局配置
 # 并包含子项目。
 #
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required (VERSION 3.12)
 
 # 如果支持，请为 MSVC 编译器启用热重载。
 if (POLICY CMP0141)
@@ -20,5 +20,6 @@ project ("SoftwareRasterizationProjects")
 #add_subdirectory ("05_lectureCodes05-Triangles")
 #add_subdirectory ("06_lectureCodes06-Image")
 #add_subdirectory ("07_lectureCodes07-UV")
-#add_subdirectory ("08_lectureCodes08-Bilinear")
-add_subdirectory ("09_lectureCodes09-Wrap")
+add_subdirectory ("08_lectureCodes08-Bilinear")
+#add_subdirectory ("09_lectureCodes09-Wrap")
+#add_subdirectory ("10_lectureCodes10-Matrix")
