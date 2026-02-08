@@ -7,7 +7,7 @@
 
 
 //Matrix类的实现
-//讲授Matrix相关算法实现
+//Matrix相关算法实现
 
 Image* texture;
 Point p1;
